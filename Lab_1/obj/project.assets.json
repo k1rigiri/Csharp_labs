@@ -8,19 +8,24 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\Kirigiri\\.nuget\\packages\\": {}
+    "C:\\Users\\kirigiri\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Kirigiri\\Source\\Repos\\k1rigiri\\Csharp_labs\\Lab_1\\Lab_1.csproj",
+      "projectUniqueName": "C:\\Users\\kirigiri\\Source\\Repos\\k1rigiri\\Csharp_labs\\Lab_1\\Lab_1.csproj",
       "projectName": "Lab_1",
-      "projectPath": "C:\\Users\\Kirigiri\\Source\\Repos\\k1rigiri\\Csharp_labs\\Lab_1\\Lab_1.csproj",
-      "packagesPath": "C:\\Users\\Kirigiri\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Kirigiri\\Source\\Repos\\k1rigiri\\Csharp_labs\\Lab_1\\obj\\",
+      "projectPath": "C:\\Users\\kirigiri\\Source\\Repos\\k1rigiri\\Csharp_labs\\Lab_1\\Lab_1.csproj",
+      "packagesPath": "C:\\Users\\kirigiri\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\kirigiri\\Source\\Repos\\k1rigiri\\Csharp_labs\\Lab_1\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Kirigiri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\kirigiri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -60,7 +65,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\PROGRAM FILES\\DOTNET\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
       }
     }
   }
