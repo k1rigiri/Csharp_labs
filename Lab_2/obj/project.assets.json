@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Kirigiri\\Source\\Repos\\k1rigiri\\Csharp_labs\\Lab_1\\Lab_1.csproj",
-      "projectName": "Lab_1",
-      "projectPath": "C:\\Users\\Kirigiri\\Source\\Repos\\k1rigiri\\Csharp_labs\\Lab_1\\Lab_1.csproj",
+      "projectUniqueName": "C:\\Users\\Kirigiri\\source\\repos\\k1rigiri\\Csharp_labs\\Lab_2\\Lab_2.csproj",
+      "projectName": "Lab_2",
+      "projectPath": "C:\\Users\\Kirigiri\\source\\repos\\k1rigiri\\Csharp_labs\\Lab_2\\Lab_2.csproj",
       "packagesPath": "C:\\Users\\Kirigiri\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Kirigiri\\Source\\Repos\\k1rigiri\\Csharp_labs\\Lab_1\\obj\\",
+      "outputPath": "C:\\Users\\Kirigiri\\source\\repos\\k1rigiri\\Csharp_labs\\Lab_2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Kirigiri\\AppData\\Roaming\\NuGet\\NuGet.Config",
