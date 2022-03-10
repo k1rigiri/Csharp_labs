@@ -6,7 +6,7 @@ namespace Lab_2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Лабораторная работа №1 - Инкапсуляция");
+            Console.WriteLine("Лабораторная работа №2 - Наследование");
             Console.WriteLine("Выполнил - Свиридов В.Д.");
 
             Rectangle a = new Rectangle()
