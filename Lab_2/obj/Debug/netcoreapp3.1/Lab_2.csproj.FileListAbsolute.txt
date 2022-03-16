@@ -11,3 +11,4 @@ C:\Users\Kirigiri\source\repos\k1rigiri\Csharp_labs\Lab_2\obj\Debug\netcoreapp3.
 C:\Users\Kirigiri\source\repos\k1rigiri\Csharp_labs\Lab_2\obj\Debug\netcoreapp3.1\Lab_2.dll
 C:\Users\Kirigiri\source\repos\k1rigiri\Csharp_labs\Lab_2\obj\Debug\netcoreapp3.1\Lab_2.pdb
 C:\Users\Kirigiri\source\repos\k1rigiri\Csharp_labs\Lab_2\obj\Debug\netcoreapp3.1\Lab_2.genruntimeconfig.cache
+C:\Users\Kirigiri\Source\Repos\k1rigiri\Csharp_labs\Lab_2\obj\Debug\netcoreapp3.1\Lab_2.GeneratedMSBuildEditorConfig.editorconfig

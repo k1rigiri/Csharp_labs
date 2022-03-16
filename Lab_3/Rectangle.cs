@@ -1,8 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Drawing;
 
-namespace Lab_2
+namespace Lab_3
 {
     class Rectangle : figure
     {
@@ -11,6 +12,16 @@ namespace Lab_2
         public override double GetArea()
         {
             return Width * Height;
+        }
+
+        public override Point GetCenter()
+        {
+            return new Point((int)(Position.X + Width / 2), (int)(Position.Y + Height / 2));
+        }
+        public override void Draw(Graphics gr)
+        {
+            gr.DrawRectangle(new Pen(Color), Position.X, Position.Y, (int)Width, (int)Height);
+            gr.DrawString(GetCenter().ToString(), new Font("Arial", 9), Brushes.Black, GetCenter());
         }
     }
 }
