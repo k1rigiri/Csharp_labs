@@ -18,7 +18,7 @@ namespace Lab_3
         }
         public override void Draw(Graphics gr)
         {
-            gr.DrawEllipse(new Pen(Color), Position.X - Convert.ToInt32(radius), Position.Y - Convert.ToInt32(radius), Convert.ToInt32(radius) + Convert.ToInt32(radius), Convert.ToInt32(radius) + Convert.ToInt32(radius));
+            gr.DrawEllipse(new Pen(Color), Position.X - (int)radius, Position.Y - (int)radius, (int)radius + (int)radius, (int)radius + (int)radius);
             gr.DrawString(GetCenter().ToString(), new Font("Arial", 9), Brushes.Black, GetCenter());
         }
     }

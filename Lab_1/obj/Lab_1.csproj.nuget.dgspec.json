@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kirigiri\\Source\\Repos\\k1rigiri\\Csharp_labs\\Lab_1\\Lab_1.csproj": {}
+    "C:\\Users\\kirigiri\\source\\repos\\k1rigiri\\Csharp_labs\\Lab_1\\Lab_1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kirigiri\\Source\\Repos\\k1rigiri\\Csharp_labs\\Lab_1\\Lab_1.csproj": {
+    "C:\\Users\\kirigiri\\source\\repos\\k1rigiri\\Csharp_labs\\Lab_1\\Lab_1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kirigiri\\Source\\Repos\\k1rigiri\\Csharp_labs\\Lab_1\\Lab_1.csproj",
+        "projectUniqueName": "C:\\Users\\kirigiri\\source\\repos\\k1rigiri\\Csharp_labs\\Lab_1\\Lab_1.csproj",
         "projectName": "Lab_1",
-        "projectPath": "C:\\Users\\Kirigiri\\Source\\Repos\\k1rigiri\\Csharp_labs\\Lab_1\\Lab_1.csproj",
-        "packagesPath": "C:\\Users\\Kirigiri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kirigiri\\Source\\Repos\\k1rigiri\\Csharp_labs\\Lab_1\\obj\\",
+        "projectPath": "C:\\Users\\kirigiri\\source\\repos\\k1rigiri\\Csharp_labs\\Lab_1\\Lab_1.csproj",
+        "packagesPath": "C:\\Users\\kirigiri\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kirigiri\\source\\repos\\k1rigiri\\Csharp_labs\\Lab_1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Kirigiri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\kirigiri\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -58,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\PROGRAM FILES\\DOTNET\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

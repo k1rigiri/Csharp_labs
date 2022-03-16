@@ -23,7 +23,7 @@ namespace Lab_3
         public override void Draw(Graphics gr)
         {
             double c = Math.Sqrt(Math.Pow(side, 2) - Math.Pow(height, 2));
-            Point[] points = { new Point(Position.X + Convert.ToInt32(c), Position.Y + Convert.ToInt32(height)), new Point(Position.X + Convert.ToInt32(c + Base), Position.Y + Convert.ToInt32(height)), new Point(Position.X + Convert.ToInt32(Base), Position.Y), new Point(Position.X, Position.Y) };
+            Point[] points = { new Point(Position.X + (int)c, Position.Y + (int)height), new Point(Position.X + (int)c + (int)Base, Position.Y + (int)height), new Point(Position.X + (int)Base, Position.Y), new Point(Position.X, Position.Y) };
             gr.DrawPolygon(new Pen(Color), points);
             gr.DrawString(GetCenter().ToString(), new Font("Arial", 9), Brushes.Black, GetCenter());
         }

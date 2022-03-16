@@ -16,13 +16,13 @@ namespace Lab_3
         }
         public override Point GetCenter()
         {
-            return new Point((int)(Position.X + (S_base / 2)), (int)(Position.Y + height / 2));
+            return new Point((int)(Position.X + (S_base / 2)), (int)(Position.Y - height / 2));
 
         }
         public override void Draw(Graphics gr)
         {
             double c = (S_base - F_base)/2;
-            Point[] points = { new Point(Position.X + Convert.ToInt32(c), Position.Y + Convert.ToInt32(height)), new Point(Position.X + Convert.ToInt32(F_base + c), Position.Y + Convert.ToInt32(height)), new Point(Position.X + Convert.ToInt32(S_base), Position.Y), new Point(Position.X, Position.Y) };
+            Point[] points = { new Point(Position.X, Position.Y), new Point(Position.X + (int)c, Position.Y - (int)height), new Point(Position.X + (int)c + (int)F_base, Position.Y - (int)height), new Point(Position.X + (int)S_base, Position.Y) };
             gr.DrawPolygon(new Pen(Color), points);
             gr.DrawString(GetCenter().ToString(), new Font("Arial", 9), Brushes.Black, GetCenter());
         }
