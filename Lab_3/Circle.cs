@@ -14,11 +14,11 @@ namespace Lab_3
         }
         public override Point GetCenter()
         {
-            return new Point((int)(Position.X + radius / 2), (int)(Position.Y + radius / 2));
+            return new Point((int)(Position.X + radius), (int)(Position.Y + radius));
         }
         public override void Draw(Graphics gr)
         {
-            gr.DrawEllipse(new Pen(Color), Position.X - (int)radius, Position.Y - (int)radius, (int)radius + (int)radius, (int)radius + (int)radius);
+            gr.DrawEllipse(new Pen(Color), Position.X, Position.Y, 2 * (int)radius, 2 * (int)radius);
             gr.DrawString(GetCenter().ToString(), new Font("Arial", 9), Brushes.Black, GetCenter());
         }
     }

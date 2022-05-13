@@ -10,7 +10,7 @@ namespace Lab_2
         public double diagonal_2 { get; set; }
         public override double GetArea()
         {
-            return (diagonal_1 + diagonal_2) / 2;
+            return (diagonal_1 * diagonal_2) / 2;
         }
     }
 }

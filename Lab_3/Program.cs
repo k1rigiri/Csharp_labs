@@ -16,11 +16,38 @@ namespace Lab_3
                 Height = 50
             },
 
+            new Rhomb()
+            {
+                Name = "Ромб ",
+                Color = System.Drawing.Color.DarkViolet,
+                Position = new System.Drawing.Point(100, 400),
+                diagonal_1 = 150,
+                diagonal_2 = 60,
+            },
+
+            new Pentagon()
+            {
+                Name = "Правильный пятиугольник ",
+                Color = System.Drawing.Color.DarkViolet,
+                Position = new System.Drawing.Point(200, 400),
+                side = 60,
+                Vertexes = 5
+            },
+
+            new Decagon()
+            {
+                Name = "Десятиугольник ",
+                Color = System.Drawing.Color.Violet,
+                Position = new System.Drawing.Point(500, 460),
+                side = 25,
+                Vertexes = 10
+            },
+
             new Circle()
             {
                 Name = "Круг ",
                 Color = System.Drawing.Color.Red,
-                Position = new System.Drawing.Point(60, 150),
+                Position = new System.Drawing.Point(200, 290),
                 radius = 40,
             },
 
@@ -32,7 +59,7 @@ namespace Lab_3
                 side = 60,
             },
 
-            new Triangle()
+             new Triangle()
             {
                 Name = "Треугольник ",
                 Color = System.Drawing.Color.Orange,
